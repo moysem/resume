@@ -1,0 +1,212 @@
+<html>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        ::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /* box-shadow: inset 0 0 5px grey;  */
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(136,146,176); 
+  border-radius: 3px;
+}
+        img {
+            position: absolute;
+            left: 33.5px;
+            top: 34px;
+            z-index: 1;
+        }   
+        .blue{
+            background-color: rgb(10,25,47);
+        }
+        ol li{
+             margin-left: 30px;
+             margin-top: 10px; 
+            font-size: 12px;
+            color: rgb(202,211,243);
+            font-family: 'SF Mono', sans-serif;
+            display: inline !important;
+        }
+
+        li:hover{
+            color: #60F2D1;
+            cursor: pointer;
+        }
+        .btn{
+            color:  #60F2D1 !important; 
+            border-color:  #60F2D1 !important;
+            font-family: 'SF Mono', sans-serif !important;
+            font-size: 12px !important;
+           padding: 10px 15px !important;
+        }
+
+        .gon {
+  width: 45px;
+  height: 45px;
+  background-color:#60F2D1;
+  background-size: 220px 220px;
+        } 
+        .penta {
+  height: 45px;
+  -webkit-clip-path: polygon(
+    50% 0, 100% 38%, 81% 100%, 19% 100%, 0 38%
+  );
+  -moz-clip-path: polygon(
+    50% 0, 100% 38%, 81% 100%, 19% 100%, 0 38%
+  );
+  -ms-clip-path: polygon(
+    50% 0, 100% 38%, 81% 100%, 19% 100%, 0 38%
+  );
+  clip-path: polygon(
+    50% 0, 100% 38%, 81% 100%, 19% 100%, 0 38%
+  );
+}
+       
+        .stylehead{
+
+            margin-top: 30px;
+        }
+      h1{
+        margin: 0px 0px 30px 4px;
+        font-family: 'SF Mono', sans-serif ;
+        font-size: 15px !important;
+        font-weight:500 !important;
+        color: #60F2D1;
+      }
+
+      .name{
+            margin: 0px;
+            font-size:60px;
+            font-weight: bolder;
+      }
+
+      h2{
+            color: rgb(204,214,246) ;
+      }
+
+      h3{
+        color:rgb(136,146,176);
+      }
+      h4{
+
+        font-family: var(--font-sans);
+        color:rgb(136,146,176);
+      }
+
+.content{
+
+        align-content: center;
+}
+
+.description{
+
+    max-width: 540px;
+    margin-top: 10px;
+    color:rgb(136,146,176);
+    /* text-align:left;   */
+    font-family: 'SF Mono', sans-serif; 
+    font-size: 15px !important;
+    font-weight:500 !important;
+    display: block;
+    /* box-sizing: border-box; */
+
+}
+    </style>
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/sf-mono');
+        </style>
+        <script>
+            function Resume(){
+
+                window.open("img/MUHAMMAD_FARIS_AKMAL_BIN_MOHD_PAIZOL_-_Software_Developer (2) (2).pdf");
+            }
+        </script>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+     <link rel="icon" type="image/x-icon" href="img/PortLogo.ico"> 
+    
+    <header class="stylehead">
+        <div class="row" style="flex-wrap: nowrap; align-content: center;">
+
+      
+            <div class="col-sm-6" style="margin-left:30px;">
+                <div class="penta gon">
+            <img src="img/PortLogo.png" alt="Faris" width="38" height="38"></div>
+            </div>
+
+        <div class="col-sm-6">
+            <ol>
+                <li href="#about-me">01.About</li>
+                <li><a href="#my-experience">02.Intro</a></li>
+                <li>03.Job</li>
+                <li>04.Contacts</li>
+                <li><button type="button" class="btn btn-sm btn-outline" onclick="Resume()">Resume</button></li>
+            </ul>
+
+        </div>
+    </div>
+    </header>
+    <body class="blue">
+        <div class="container"style="margin-left: 100px; margin-top: 40px;">
+            <div>
+                <h1>Hi,my name is</h1>
+            </div>
+            <div>
+                <h2 class="name">Faris Akmal<h2>
+                <h3 class="name">I build things for the weeb</h3>
+                <p class="description">
+                    I’m a software engineer specializing in building 
+                    (and occasionally designing) exceptional digital experiences. 
+                    Currently, I’m focused on building accessible,
+                    human-centered products at Upstatement.
+                   </p>
+            </div>
+        </div>
+        <div class="about" id="about-me" style="margin-left: 100px; margin-top: 40px;">
+            <h4>About</h4>   
+            <p class="description">
+                I’m a software engineer specializing in building 
+                (and occasionally designing) exceptional digital experiences. 
+                Currently, I’m focused on building accessible,
+                human-centered products at Upstatement.
+               </p> 
+        </div>
+        <div class="experience" id="my-experience" style="margin-left: 100px; margin-top: 40px;">
+            <h4>Experience</h4> 
+            <p class="description">
+                I’m a software engineer specializing in building 
+                (and occasionally designing) exceptional digital experiences. 
+                Currently, I’m focused on building accessible,
+                human-centered products at Upstatement.
+               </p>   
+            </div>
+        <div class="work" id="my-work" style="margin-left: 100px; margin-top: 40px;">
+            <h4>Work</h4>    
+            <p class="description">
+                I’m a software engineer specializing in building 
+                (and occasionally designing) exceptional digital experiences. 
+                Currently, I’m focused on building accessible,
+                human-centered products at Upstatement.
+               </p>
+            </div>
+        <div class="contact" id="my-contact" style="margin-left: 100px; margin-top: 40px;">
+            <h4>Contact</h4>    
+            <p class="description">
+                I’m a software engineer specializing in building 
+                (and occasionally designing) exceptional digital experiences. 
+                Currently, I’m focused on building accessible,
+                human-centered products at Upstatement.
+               </p>
+            </div>
+    </body>
+</html
