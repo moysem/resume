@@ -99,6 +99,13 @@
       h3{
         color:rgb(136,146,176);
       }
+      #numbered {
+	counter-reset: heading;
+}
+h4:before {
+	content: counter(heading)") ";
+	counter-increment: heading;
+}
       h4{
 
         font-family: var(--font-sans);
@@ -176,42 +183,44 @@
                    </p>
             </div>
         </div>
-        <div class="about" id="about-me" style="margin-left: 100px; margin-top: 40px;">
-            <h4>About</h4>   
-            <p class="description">
-                I’m a software engineer specializing in building 
-                (and occasionally designing) exceptional digital experiences. 
-                Currently, I’m focused on building accessible,
-                human-centered products at Upstatement.
-               </p> 
+        <div class="numbered">
+            <div class="about" id="about-me" style="margin-left: 100px; margin-top: 40px;">
+                <h4>About</h4>   
+                <p class="description">
+                    I’m a software engineer specializing in building 
+                    (and occasionally designing) exceptional digital experiences. 
+                    Currently, I’m focused on building accessible,
+                    human-centered products at Upstatement.
+                </p> 
+            </div>
+            <div class="experience" id="my-experience" style="margin-left: 100px; margin-top: 40px;">
+                <h4>Experience</h4> 
+                <p class="description">
+                    I’m a software engineer specializing in building 
+                    (and occasionally designing) exceptional digital experiences. 
+                    Currently, I’m focused on building accessible,
+                    human-centered products at Upstatement.
+                    test namas test
+                </p>   
+                </div>
+            <div class="work" id="my-work" style="margin-left: 100px; margin-top: 40px;">
+                <h4>Work</h4>    
+                <p class="description">
+                    I’m a software engineer specializing in building 
+                    (and occasionally designing) exceptional digital experiences. 
+                    Currently, I’m focused on building accessible,
+                    human-centered products at Upstatement.
+                </p>
+                </div>
+            <div class="contact" id="my-contact" style="margin-left: 100px; margin-top: 40px;">
+                <h4>Contact</h4>    
+                <p class="description">
+                    I’m a software engineer specializing in building 
+                    (and occasionally designing) exceptional digital experiences. 
+                    Currently, I’m focused on building accessible,
+                    human-centered products at Upstatement. Test 3 4
+                </p>
+                </div>
         </div>
-        <div class="experience" id="my-experience" style="margin-left: 100px; margin-top: 40px;">
-            <h4>Experience</h4> 
-            <p class="description">
-                I’m a software engineer specializing in building 
-                (and occasionally designing) exceptional digital experiences. 
-                Currently, I’m focused on building accessible,
-                human-centered products at Upstatement.
-                test namas test
-               </p>   
-            </div>
-        <div class="work" id="my-work" style="margin-left: 100px; margin-top: 40px;">
-            <h4>Work</h4>    
-            <p class="description">
-                I’m a software engineer specializing in building 
-                (and occasionally designing) exceptional digital experiences. 
-                Currently, I’m focused on building accessible,
-                human-centered products at Upstatement.
-               </p>
-            </div>
-        <div class="contact" id="my-contact" style="margin-left: 100px; margin-top: 40px;">
-            <h4>Contact</h4>    
-            <p class="description">
-                I’m a software engineer specializing in building 
-                (and occasionally designing) exceptional digital experiences. 
-                Currently, I’m focused on building accessible,
-                human-centered products at Upstatement. Test 3 4
-               </p>
-            </div>
     </body>
 </html
