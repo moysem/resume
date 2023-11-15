@@ -103,11 +103,18 @@
 	counter-reset: heading;
 }
 h4:before {
-    font-size: 10px !important;
+    font-size: 20px !important;
     font-family: 'SF Mono', sans-serif ;
     color: #60F2D1;
 	content:"0" counter(heading)". ";
 	counter-increment: heading;
+}
+
+h4:after{
+    content: "";
+    width: 300px;
+    height: 1px;
+
 }
       h4{
 
